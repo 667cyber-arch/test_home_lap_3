@@ -573,7 +573,7 @@ Execute the attack simulation:
 python3 smb_brute.py
 ```
 
-[View Python Script](Home_Lab\Scripts/smb_brute.py)
+[View Python Script](Home_Lab/Scripts/smb_brute.py)
 
 ---
 
@@ -779,7 +779,7 @@ The goal of this phase was to successfully implement a Layer 2 IDS (Intrusion De
 
 
 ```python
-VICTIM_IP = "192.168.1.xxx"
+VICTIM_IP = "192.168.1.xx"
 ```
 
 
@@ -826,7 +826,7 @@ sniff(prn=detect_attack, store=0)
 - Continuously monitors **live network traffic** passing through the bridge.
 - `store=0` prevents packets from being stored in memory during high-traffic events.
 
-[View Python Script](Scripts/ids_monitor.py)
+[View Python Script](Home_Lab/Scripts/ids_monitor.py)
 
 ---
 
